@@ -1,1 +1,2 @@
-# spm_website
+# 2020 SPM Sains Komputer Project
+# Used XAMPP, PHPMYADMIN, NOTEPAD++
