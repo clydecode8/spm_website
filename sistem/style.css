@@ -1,0 +1,353 @@
+ {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;	
+}
+
+/* Title */
+ header h1 {
+   border: 4px;
+   background-color: #A99EBE;
+   color: black;
+   text-align: center;
+   font-size: 35px;
+   padding: 40px;
+   margin: auto;
+ }  
+ 
+/* Tab below title */
+  nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #C0C0C0;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+ nav li {
+	display: inline-block;
+    padding: 29px 20px;    
+	float: right;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FFC2CD;
+    text-shadow: 7px 4px 4px rgba(69, 0, 0, 1);
+	
+	
+ }
+ 
+ /* Navigasi kiri */
+ .navigasi img {
+	 width: 180px;
+	 height: 210px;
+	 float: left;
+	 left: 0;
+	 overflow: auto;
+	 margin-bottom: 60px;
+  }
+  
+	   
+  aside ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 180px;
+     background-color: #DBBFD8;
+     text-align: left;
+     overflow: auto;
+     position: fixed;
+     float: left;
+     height: 100%;
+     top: 0;
+     font-size: 25px;
+	 border: 1px solid;
+}
+
+  aside li a {
+     display: block;
+     color: black;
+     padding: 20px 10px;
+     text-decoration: none;
+     font-style: black;
+ 
+}
+
+  aside li a.hover {
+     background-color: black;
+     color: white;
+     outline-style: double;
+}
+
+  aside li a:hover:not(.active) {
+     background-color: #56AFB7;
+     color: black;
+     font-style: bold;
+}
+
+/*Forms*/
+   input.daftar {
+	  border: 2px ridge #767676;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  color: black;
+	  background-color: white;
+	  padding: 10px;
+	  width: 60%;
+	  text-align: left;
+	  float: right;
+      margin-right: 300px;
+	  display: inline-block;
+	  font-size: 20px;
+	  height: 20%;
+   }
+   
+   input.daftar:focus { 
+      background-color: #C0CBCC;
+	  color: white;
+	  border: 2px solid black;
+	  box-sizing: border-box;
+	  
+   }
+	   
+   input.submitdaftar {
+	   float: right;
+	   background-color: lightblue;
+	   color: white;
+	   margin-right: 100px;
+	   padding: 20px 20px;
+	   width: 10%;
+	   height: 10%;
+	   margin-top: 20px;
+	   font-size: 15px;
+	   box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+      -webkit-transition: all 150ms ease-in-out;
+       transition: all 150ms ease-in-out;
+   }
+   
+   input.submitdaftar:hover {
+	   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  
+   }
+   span.wajib {
+	   color: red;
+   }
+   
+   .form-style label {
+	   color: #272829;
+	   text-align: right;
+	   
+   }
+
+   
+   .form-style  {
+       margin: auto;
+   }
+   
+   .homedaftar {
+	   background-color: #F0F8FF;
+   }
+   
+   .homelogin {
+	   background-color: #FFF0F5;
+   }
+   
+   .form-style p {
+	   margin-top: 50px;
+   }
+
+   input[type="date"] {
+       color: #95A5A6;
+       font-family: "Helvetica", arial, sans-serif;
+       font-size: 20px;
+       background-color: #ECF0F1;
+       padding: 5px;
+	   
+	   
+   }
+
+   input[type="date"], focus {
+      color: #95A5A6;
+      box-shadow: none;
+   }
+
+   
+
+    .pilih-css {
+	  display: block;
+	  font-size: 20px;
+	  color: black;
+	  padding: 4px;
+	  width: 40%;
+	  display: inline-block;
+	  max-width: 100%;
+
+	}
+	
+    .pilih-css:hover {
+      background-color: #F4F2F4;
+	  color: black;
+	  border-color: 1px solid black;
+	  -webkit-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      -moz-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+	}
+
+    .pilih-css:focus {
+	  color: black;
+	  border-color: 1px solid black;
+	  background-color: #EFEBED;
+	  -webkit-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      -moz-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+	}	
+
+   input.tempahan:focus {
+	   background-color: #CACAD0;
+	   color: white;
+	   -webkit-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+       -moz-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+        box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+   }
+   
+   input.tempahan2:focus {
+	   background-color: #CACAD0;
+	   color: white;
+	   -webkit-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+       -moz-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+        box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+   }
+   
+   input.submittempahan {
+	   float: right;
+	   background-color: lightgreen;
+	   color: white;
+	   margin-right: 100px;
+	   padding: 20px 20px;
+	   width: 10%;
+	   height: 10%;
+	   margin-top: 20px;
+	   font-size: 15px;
+	   margin-bottom: 20px;
+	   background: #CEE5AE;
+
+   }
+   
+   input.submittempahan:hover {
+	   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	   animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  
+   }
+
+/* Article Utama */ 
+  article {
+	 text-align: left;
+	 margin-left: 270px;
+	 font-size: 23px;
+
+ }
+
+  body {
+	 background-color: #F8F8FF;	 
+  }
+  
+  
+/* Button */  
+  .btn {
+	  float: right;
+	  font-family: Helvetica, Arial, Sans-Serif;
+	  padding: 15px 25px;
+	  background-color: gray;
+	  color: black;
+	  font-size: 16px;
+	  -webkit-box-shadow: 5px 5px 0 #666;
+      -moz-box-shadow: 5px 5px 0 #666;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+  }	  
+
+  
+  .rawakhead {
+	  background-color: #90EE90;	
+      margin: -150px 30px;  
+  }
+  
+  .rawakhead:hover {
+      background-color: #98FB98;
+      -webkit-box-shadow: 0px 0px 0 #666;
+      -moz-box-shadow: 0px 0px 0 #666;
+  }
+  
+   .rawaksidenav {
+	  background-color: #FFFACD;
+	  margin: -90px 30px;
+  }
+	  
+  .rawaksidenav:hover {
+	  background-color: #FFFFF0;
+	  -webkit-box-shadow: 0px 0px 0 #666;
+      -moz-box-shadow: 0px 0px 0 #666;
+  }
+  
+  .rawaknav {
+	  background-color: #FFE4E1;
+	  margin: -10px 30px;
+  }
+  
+  .rawaknav:hover {
+	  background-color: #FDF5E6;
+	  -webkit-box-shadow: 0px 0px 0 #666;
+      -moz-box-shadow: 0px 0px 0 #666;
+	  
+  }
+  
+  .rawak {
+	  background-color: #B0E0E6;
+	  margin: 70px -255px 0 30px;
+  }
+  
+  .rawak:hover {
+	  background-color: #AFEEEE;
+	  -webkit-box-shadow: 0px 0px 0 #666;
+      -moz-box-shadow: 0px 0px 0 #666;
+  }
+  
+  
+  .homeutama p {
+	  font-size: 15px;
+	  float: right;
+	  margin: 150px -260px 0 30px;
+	  color: #2F4F4F;
+  }
+  
+  #tarikhmasa {
+	  font-size: 30px;
+  }
+  
+  
+ @media screen and (max-width: 1000px){
+	
+	 nav, article{
+        width: 100%;
+        height; auto; 
+		}
+
+    .btn {
+		visibility: hidden;
+	}
+	
+	
+    aside {
+		font-size: 15px;
+	}
+	
+	 nav {
+		 visibility: hidden;
+	 }
+	
+}
+	
+	

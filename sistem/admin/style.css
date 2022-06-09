@@ -1,0 +1,560 @@
+ {
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;	
+}
+   
+/* Title */
+ header h1 {
+   border: 4px;
+   background-color: #A99EBE;
+   color: black;
+   text-align: center;
+   font-size: 35px;
+   padding: 40px;
+   margin: auto;
+ }  
+ 
+/* Tab below title */
+  nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #C0C0C0;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+ nav li {
+	display: inline-block;
+    padding: 29px 20px;    
+	float: right;
+	font-size: 26px;
+	font-weight: bold;
+	color: #FFC2CD;
+    text-shadow: 7px 4px 4px rgba(69, 0, 0, 1);
+		
+ }
+ 
+ /* Navigasi kiri */
+ .navigasi img {
+	 width: 180px;
+	 height: 210px;
+	 float: left;
+	 left: 0;
+	 overflow: auto;
+	 margin-bottom: 60px;
+  }
+  
+	   
+  aside ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     width: 180px;
+     background-color: #66D6E0;
+     text-align: left;
+     overflow: auto;
+     position: fixed;
+     float: left;
+     height: 100%;
+     top: 0;
+     font-size: 25px;
+	 border: 1px solid;
+}
+
+  aside li a {
+     display: block;
+     color: black;
+     padding: 20px 10px;
+     text-decoration: none;
+     font-style: black;
+ 
+}
+
+  aside li a.hover {
+     background-color: black;
+     color: white;
+     outline-style: double;
+}
+
+  aside li a:hover:not(.active) {
+     background-color: #56AFB7;
+     color: black;
+     font-style: bold;
+}
+
+  article h2, h3 {
+	  font-size: 25px;
+  }
+
+   
+   nav li {
+	  display: inline-block;
+      padding: 25px 20px;    
+	  float: right;
+	  font-size: 26px;
+	  font-weight: bold;
+  }
+  
+   .btn {
+	   padding: 5px 10px;
+   }
+  
+   .rawakhead {
+	   margin: 50px 20px;
+	   background-color: yellow;
+  }
+  
+   .rawakhead:hover {
+	   background-color: yellow;
+   }
+  
+ 
+/* Buttons */ 
+    .btnsemak {
+	   padding: 20px 15px;
+	   color: white;
+	   background-color: #77C897;
+	   font-size: 20px;
+	   border-radius: 2px;
+	   border: 2px solid #229658;   
+	   -webkit-box-shadow: inset 10px 10px 19px 3px rgba(56,17,184,0.68);
+       -moz-box-shadow: inset 10px 10px 19px 3px rgba(56,17,184,0.68);
+       box-shadow: inset 10px 10px 19px 3px rgba(56,17,184,0.68);
+	   transition: all 1.0s ease 0s;
+	}
+	
+    .btnsemak:hover {
+	   background-color: #FFF0F5;
+	   -webkit-box-shadow: 10px 10px 19px 3px rgba(56,17,184,0.68);
+       -moz-box-shadow: 10px 10px 19px 3px rgba(56,17,184,0.68);
+       box-shadow: 10px 10px 19px 3px rgba(56,17,184,0.68);
+      -webkit-transition: all 0.3s ease;
+	   color: #2F4F4F;
+	   font-size: 20px;
+       padding: 20px 35px;
+       text-shadow: 8px 8px 9px rgba(0,0,0,0.21);
+       font-weight: bold;
+	}	
+
+    .btnhomestay {
+       padding: 20px 15px;
+	   color: white;
+	   background-color: #77C897;
+	   font-size: 20px;
+	   border-radius: 2px;
+	   border: 2px solid #229658;   
+       -webkit-box-shadow: inset 2px -1px 16px -200px rgba(48,161,97,1);
+       -moz-box-shadow: inset 2px -1px 16px -200px rgba(48,161,97,1);
+       box-shadow: inset 2px -1px 16px -200px rgba(48,161,97,1);
+	   transition: all 1.0s ease 0s;
+
+	 }
+   
+    .btnhomestay:hover {
+	   background-color: #FFF0F5;
+       -webkit-box-shadow: -2px 2px 25px 14px rgba(48,161,97,1);
+       -moz-box-shadow: -2px 2px 25px 14px rgba(48,161,97,1);
+       box-shadow: -2px 2px 25px 14px rgba(48,161,97,1);
+      -webkit-transition: all 0.3s ease;
+	   color: #2F4F4F;
+	   font-size: 20px;
+       padding: 20px 35px;
+       text-shadow: 8px 8px 9px rgba(0,0,0,0.21);
+       font-weight: bold;
+	}
+	
+	.btnstatus {
+       padding: 20px 15px;
+	   background-color: skyblue;
+	   font-size: 20px;
+	   color: white;
+	   border-radius: 2px;
+	   border: 2px solid #229658;  
+	   font-size: 20px;
+	   transition: all 1.0s ease 0s;
+       -webkit-box-shadow: 11px 17px 24px 0px rgba(0,0,0,0.73);
+       -moz-box-shadow: 11px 17px 24px 0px rgba(0,0,0,0.73);
+       box-shadow: 11px 17px 24px 0px rgba(0,0,0,0.73)
+	   
+ }
+    
+	.btnstatus:hover {
+		color: black;
+		font-weight: bold;
+		background-color: white;
+	    text-shadow: 8px 8px 9px rgba(0,0,0,0.21);
+       -webkit-transition: all 0.3s ease;
+       -webkit-box-shadow: inset 11px 17px 24px 0px rgba(0,0,0,0.73);
+       -moz-box-shadow: inset 11px 17px 24px 0px rgba(0,0,0,0.73);
+       box-shadow: inset 11px 17px 24px 0px rgba(0,0,0,0.73);
+		padding: 20px 25px;
+
+
+	}
+
+	.btnimport {
+       padding: 20px 15px;
+	   background-color: #EEF453;
+	   font-size: 20px;
+	   color: white;
+	   border-radius: 2px;
+	   border: 2px solid #229658;  
+	   font-size: 20px;
+	   transition: all 1.0s ease 0s;
+	   -webkit-box-shadow: inset 2px 2px 20px 7px rgba(230,223,25,1);
+       -moz-box-shadow: inset 2px 2px 20px 7px rgba(230,223,25,1);
+       box-shadow: inset 2px 2px 20px 7px rgba(230,223,25,1);
+	   
+ }
+    
+	.btnimport:hover {
+		color: black;
+		font-weight: bold;
+		background-color: white;
+	    text-shadow: 8px 8px 9px rgba(0,0,0,0.21);
+       -webkit-transition: all 0.3s ease;
+	   -webkit-box-shadow: 2px 2px 20px 7px rgba(230,223,25,1);
+       -moz-box-shadow: 2px 2px 20px 7px rgba(230,223,25,1);
+        box-shadow: 2px 2px 20px 7px rgba(230,223,25,1);
+		padding: 20px 25px;
+	}
+	
+	.btnadmin {
+       padding: 20px 80px;
+	   background-color: #B7BABD;
+	   font-size: 20px;
+	   color: white;
+	   border-radius: 2px;
+	   border: 2px solid #229658;  
+	   font-size: 20px;
+	   transition: all 1.0s ease 0s;
+        -webkit-box-shadow: 15px 10px 5px 2px rgba(173,142,173,1);
+        -moz-box-shadow: 15px 10px 5px 2px rgba(173,142,173,1);
+        box-shadow: 15px 10px 5px 2px rgba(173,142,173,1);
+	   
+ }	
+	
+	.btnadmin:hover {
+		color: black;
+		font-weight: bold;
+		background-color: white;
+	    text-shadow: 8px 8px 9px rgba(0,0,0,0.21);
+        -webkit-transition: all 0.3s ease;
+        -webkit-box-shadow: inset 15px 10px 5px 2px rgba(173,142,173,1);
+        -moz-box-shadow: inset 15px 10px 5px 2px rgba(173,142,173,1);
+        box-shadow: inset 15px 10px 5px 2px rgba(173,142,173,1);
+		padding: 20px 45px;
+	}
+
+
+	   .pilihan td {
+		 padding: 25px 50px;
+		 background-color: #949494;
+  
+	 }
+	   
+	   .pilihanth {
+		 padding: 25px 50px;
+		 text-align: center;
+		 background-color: #ACB8AB;
+
+	 }
+	   .special {
+         background-color: #C0D1BE;
+		 padding: 25px 50px;
+		 text-align: center;
+	   }
+	   
+	   .special2 {
+         background-color: blue;
+		 padding: 25px 50px;
+		 text-align: center;
+	   }
+
+
+
+   .adminth {
+      padding: 25px 50px;
+      background-color: lightgray;
+	  text-align: center;
+   }	
+
+   .admintd {
+      padding: 25px 50px;
+      background-color: #ECF7FD;
+	  text-align: center;
+   }	
+   
+/* Main */ 
+  article {
+	 text-align: left;
+	 margin-left: 270px;
+	 font-size: 25px;
+
+ }
+
+  body {
+	 background-color: #F8F8FF;	 
+  }
+  
+  input.daftar2 {
+	  border: 2px ridge #767676;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  color: black;
+	  background-color: white;
+	  padding: 10px;
+	  width: 60%;
+	  text-align: left;
+	  float: right;
+      margin-right: 300px;
+	  display: inline-block;
+	  font-size: 20px;
+	  height: 20%;
+	  
+   }
+   
+    input.daftar2:focus { 
+      background-color: #C4C3D0;
+	  color: white;
+	  border: 2px solid black;
+	  box-sizing: border-box;
+	  
+   }
+   
+    input.submitdaftar2 {
+	   float: right;
+	   background-color: #FFEB7A;
+	   color: black;
+	   margin-right: 100px;
+	   padding: 20px 20px;
+	   width: 10%;
+	   height: 10%;
+	   margin-top: 20px;
+	   font-size: 15px;
+	   box-shadow: 0 0 40px 40px #FFE02F inset, 0 0 0 0 #FFE02F;
+      -webkit-transition: all 150ms ease-in-out;
+       transition: all 150ms ease-in-out;
+   }
+   
+   input.submitdaftar2:hover {
+	   box-shadow: 0 0 10px 0 #FFE02F inset, 0 0 10px 4px #FFE02F ;
+  
+   }
+   
+      span.wajib {
+	   color: red;
+   }
+   
+   .form-style label {
+	   color: #272829;
+	   text-align: right;
+	   
+   }
+   
+   .homedaftaradmin {
+	   background-color: #FFFAF0;
+   }
+   
+   .homeloginadmin {
+	   background-color: #FFFFE0;
+   }
+   
+   .form-style p {
+	   color: red;
+   }
+   
+    input.login2 {
+	  border: 2px ridge #767676;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  color: black;
+	  background-color: white;
+	  padding: 10px;
+	  width: 60%;
+	  text-align: left;
+	  float: right;
+      margin-right: 300px;
+	  display: inline-block;
+	  font-size: 20px;
+	  height: 20%;
+	  
+   }
+   
+    input.login2:focus { 
+      background-color: #C4C3D0;
+	  color: white;
+	  border: 2px solid black;
+	  box-sizing: border-box;
+	  
+   }
+   
+    input.submitlogin2 {
+	   float: right;
+	   background-color: #FFC65A;
+	   color: white;
+	   margin-right: 100px;
+	   padding: 20px 25px;
+	   width: 10%;
+	   height: 10%;
+	   font-size: 15px;
+	   box-shadow: 0 0 40px 40px #D39F33 inset, 0 0 0 0 #D39F33;
+      -webkit-transition: all 150ms ease-in-out;
+       transition: all 150ms ease-in-out;
+   }
+   
+   input.submitlogin2:hover {
+	   box-shadow: 0 0 10px 0 #D39F33 inset, 0 0 10px 4px #D39F33;
+   }
+   
+
+   input.tambah {
+       border: 2px ridge #767676;
+	   border-radius: 4px;
+	   box-sizing: border-box;
+	   color: black;
+	   background-color: white;
+	   padding: 10px;
+	   width: 60%;
+	   text-align: left;
+	   display: inline-block;
+	   font-size: 20px;
+	   height: 20%;
+	   margin: 30px;
+   }
+    
+	input.tambah:focus { 
+      background-color: #C4C3D0;
+	  color: white;
+	  border: 2px solid black;
+	  box-sizing: border-box;
+	  
+   }  
+   
+   input.submittambah {
+	   float: right;
+	   background-color: #FFC65A;
+	   color: white;
+	   margin-right: 100px;
+	   padding: 20px 25px;
+	   width: 10%;
+	   height: 10%;
+	   font-size: 15px;
+	   box-shadow: 0 0 40px 40px #D39F33 inset, 0 0 0 0 #D39F33;
+      -webkit-transition: all 150ms ease-in-out;
+       transition: all 150ms ease-in-out;
+   }
+   
+   input.submittambah:hover {
+	   box-shadow: 0 0 10px 0 #D39F33 inset, 0 0 10px 4px #D39F33;
+   }
+   
+    .pilih-css {
+	  display: block;
+	  font-size: 20px;
+	  color: black;
+	  padding: 4px;
+	  width: 40%;
+	  display: inline-block;
+	  max-width: 100%;
+	  margin: 20px;
+
+	}
+	
+    .pilih-css:hover {
+      background-color: #F4F2F4;
+	  color: black;
+	  border-color: 1px solid black;
+	  -webkit-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      -moz-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+	}
+
+    .pilih-css:focus {
+	  color: black;
+	  border-color: 1px solid black;
+	  background-color: #EFEBED;
+	  -webkit-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      -moz-box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+      box-shadow: 17px 17px 13px -4px rgba(0,0,0,0.57);
+	}	
+
+   input[type="date"] {
+       color: #95A5A6;
+       font-family: "Helvetica", arial, sans-serif;
+       font-size: 20px;
+       background-color: #ECF0F1;
+       padding: 5px;
+	   border: 2px solid #ECF0F1;
+	   
+   }
+
+   input[type="date"], focus {
+      color: #95A5A6;
+      box-shadow: none;
+   }
+   
+   .semak {
+	   margin-left: 50px;
+   }
+   
+   input.submitsemak {
+	   float: right;
+	   background-color: #FFC65A;
+	   color: white;
+	   margin-right: 100px;
+	   padding: 20px 25px;
+	   width: 10%;
+	   height: 10%;
+	   font-size: 15px;
+	   box-shadow: 0 0 40px 40px #D39F33 inset, 0 0 0 0 #D39F33;
+      -webkit-transition: all 150ms ease-in-out;
+       transition: all 150ms ease-in-out;
+   }
+   
+   input.submitsemak:hover {
+	   box-shadow: 0 0 10px 0 #D39F33 inset, 0 0 10px 4px #D39F33;
+   }   
+   
+   input.import {
+       border: 2px ridge #767676;
+	   border-radius: 4px;
+	   box-sizing: border-box;
+	   color: black;
+	   background-color: white;
+	   padding: 10px;
+	   width: 60%;
+	   text-align: left;
+	   display: inline-block;
+	   font-size: 20px;
+	   height: 20%;
+	   margin: 30px;
+   }
+
+   input.submitimport {
+	   float: right;
+	   background-color: #FFC65A;
+	   color: white;
+	   margin-right: 100px;
+	   padding: 20px 25px;
+	   width: 10%;
+	   height: 10%;
+	   font-size: 15px;
+	   box-shadow: 0 0 40px 40px #D39F33 inset, 0 0 0 0 #D39F33;
+      -webkit-transition: all 150ms ease-in-out;
+       transition: all 150ms ease-in-out;
+   }
+   
+   input.submitimport:hover {
+	   box-shadow: 0 0 10px 0 #D39F33 inset, 0 0 10px 4px #D39F33;
+   }
+  
+  #tarikhmasa {
+	  font-size: 30px;
+  }
+ 
